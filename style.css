@@ -1,0 +1,203 @@
+*{font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header .logo img{
+    height: 3rem;
+}
+.header .icon i{
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 10px;
+    /* font-weight: 200; */
+}
+.header .nav a{
+    font-size: 1.6rem;
+    color: aquamarine;
+    text-decoration: none;    
+    padding: 8px;
+
+}
+html{
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    right: 50px;
+    border: 2px solid #ccc;
+    background:url(https://static.vecteezy.com/system/resources/previews/004/684/788/original/black-and-white-coffee-shop-background-eps-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.home .data{
+    max-width: 60rem;
+}
+.home .data h2{
+    font-size: 4rem;
+
+    color: chocolate;
+    text-transform: uppercase;
+
+}
+.home .data p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    color: chocolate;
+    padding: 8px;
+}
+.btn{
+    font-size: 2rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    color: darkorange;
+    background-color: blue;
+    margin: 8px;
+    padding: 8pxs;
+}
+.btn:hover{
+    letter-spacing: .3rem;
+
+}
+.heading span{
+    padding: .6rem;
+    text-transform: uppercase;
+    color: cadetblue;
+
+}
+.heading{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+.about{
+    background-color:black;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about .row .img{
+min-width: 100%;
+}
+.about .row .content{
+    padding:2rem;
+    color: #ccc;
+}
+.about .heading h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-style: italic
+}
+.about .row .content{
+    position: absolute;
+    justify-content: right;
+    left: 750px;
+}
+
+
+.about .row .content h3{
+    font-size: 3rem;
+    padding: 2rem;
+
+}.about .row .content p{
+    font-size: 1.6rem;
+    padding: .6rem;
+
+}
+
+
+
+.menu{
+    background-color: black;
+}
+.menu .heading{
+    text-transform: uppercase;
+    padding: .6rem;
+}
+.menu .boxcon{
+    display: grid;
+    /* grid-template-columns:repeat(auto-fit,minmax(30rem,1fr)); */
+    gap: 1.5rem;
+     /* flex-direction:row-reverse; */
+     grid-template-columns: repeat(4,1fr); 
+}
+.menu .boxcon .box{
+    padding: 5rem;
+    height: 300px;
+    width: 500px;
+    padding: 5rem;
+    text-align: center;
+     border: 1px solid #fff; 
+    justify-content: space-between;
+    
+}
+.menu .boxcon .box h4{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.menu .boxcon .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.menu .boxcon .box:hover{
+    background: #ccc;
+
+}
+.menu .boxcon .box:hover>*{
+    color:var(--black);
+}.footer{
+    background-color: black;
+}
+
+.footer .share{
+    text-align: center;
+    padding: 1rem;
+
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+.footer .links{
+    text-align: center;
+    padding: 1.5rem;
+}
+.footer .links a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    padding: 16px;
+    border: 1px solid #ccc;
+    margin: .6rem;
+}
+
